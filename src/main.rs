@@ -58,7 +58,7 @@ const PKG_DESCRIPTION: &str = env!("CARGO_PKG_DESCRIPTION");
 const PKG_REPOSITORY: &str = env!("CARGO_PKG_REPOSITORY");
 
 /// Key reshuffle limit
-const KEY_RESHUFFLE_LIMIT: usize = 60 * 60 * 24 * 30; // One month ago at worst
+const KEY_RESHUFFLE_LIMIT: usize = 60000000; // One month ago at worst
 /// Counter threshold
 const COUNTER_THRESHOLD: usize = 133331; // Just a random number
 
